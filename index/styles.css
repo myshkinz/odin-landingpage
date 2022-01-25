@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul.header {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+ 
