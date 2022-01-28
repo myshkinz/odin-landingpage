@@ -1,16 +1,155 @@
 body {
     display: flex;
-    font-family: Helvetica, Arial, sans-serif;
+    flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+}
+
+.top {
+    background-color: #1F2937;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
 }
 
 .header {
-    background-color: #1F2937;
+    display: flex;
+    margin: 0px;
+}
+
+.logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-right: auto;
+    align-items: center;
 }
 
 ul.header {
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 24px;
+    align-items: center;
+}
+
+h1 {
     color: #F9FAF8;
+    font-weight: bolder;
+}
+
+p#firstp {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+img[src^=mrpoop] {
+    display: flex;
+    width: 400px;
+}
+
+.topcontent {
+    display: flex;
+    align-items: flex-start;
+ 
+    margin-top: 50px;
+}
+
+button {
+    width: 100px;
+    color: white;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 8px;
+    border-style: solid;
+}
+
+.uppermiddle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.imgcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+.text {
+    width: 175px;
+    margin: 12px;
+}
+
+img {
+    width: 200px;
+    border-radius: 8px;
+    border: 2px #3882F6;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.lowermiddle {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.quote-container {
+    max-width: 700px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    margin-right: auto;
     font-size: 24px;
 }
- 
+
+#poopyname {
+    margin-left: auto;
+    font-size: 24px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    flex: 1;
+    margin: 50px 100px 50px 100px;
+}
+
+#timetopoop {
+    margin: 10px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
