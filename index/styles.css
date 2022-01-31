@@ -48,6 +48,7 @@ p#firstp {
     display: flex;
     flex-direction: column;
     margin-right: 24px;
+    max-width: 600px;
 }
 
 img[src^=mrpoop] {
@@ -58,7 +59,6 @@ img[src^=mrpoop] {
 .topcontent {
     display: flex;
     align-items: flex-start;
- 
     margin-top: 50px;
 }
 
@@ -66,9 +66,12 @@ button {
     width: 100px;
     color: white;
     background-color: #3882F6;
-    border-color: #3882F6;
     border-radius: 8px;
     border-style: solid;
+}
+
+#poophere {
+    border-color: #3882F6;
 }
 
 .uppermiddle {
@@ -139,11 +142,31 @@ img {
     border-radius: 8px;
     display: flex;
     flex: 1;
-    margin: 50px 100px 50px 100px;
+    margin: 50px 300px 50px 300px;
+    padding: 50px 100px 50px 100px;
+    justify-content: center;
+}
+
+.actiontext {
+    color: #E5E7EB;
+    font-size: 14px;
+    min-width: 150px;
+}
+
+#action {
+    border-color: #E5E7EB;
+    flex: 0 1 auto;
+    height: 25px;
+    align-self: center;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    min-width: 100px;
 }
 
 #timetopoop {
-    margin: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0;    
 }
 
 .footer {
@@ -152,4 +175,9 @@ img {
     display: flex;
     justify-content: center;
     padding: 15px;
+}
+
+#timetopoop,
+#testerz {
+    margin: 0;
 }
